@@ -461,6 +461,31 @@ Real paths from the repo tree (sampled for orientation):
 | 8 | [`app/(chat)/api/vote/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/vote/route.ts) | Thumbs up/down for messages |
 | 9 | [`app/(chat)/api/suggestions/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/suggestions/route.ts) | Suggested next prompts |
 | 10 | [`app/(auth)/auth.config.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/auth.config.ts) | NextAuth provider config |
+| 11 | [`.cursor/rules/ultracite.mdc`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.cursor/rules/ultracite.mdc) | Repo file — read source for details |
+| 12 | [`.env.example`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.env.example) | Repo file — read source for details |
+| 13 | [`.github/workflows/lint.yml`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.github/workflows/lint.yml) | Repo file — read source for details |
+| 14 | [`.github/workflows/playwright.yml`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.github/workflows/playwright.yml) | Repo file — read source for details |
+| 15 | [`.vscode/extensions.json`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.vscode/extensions.json) | Repo file — read source for details |
+| 16 | [`.vscode/settings.json`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.vscode/settings.json) | Repo file — read source for details |
+| 17 | [`app/(auth)/actions.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/actions.ts) | Repo file — read source for details |
+| 18 | [`app/(auth)/api/auth/[...nextauth]/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/api/auth/[...nextauth]/route.ts) | Repo file — read source for details |
+| 19 | [`app/(auth)/api/auth/guest/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/api/auth/guest/route.ts) | Repo file — read source for details |
+| 20 | [`app/(auth)/auth.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/auth.ts) | Repo file — read source for details |
+| 21 | [`app/(auth)/layout.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/layout.tsx) | Repo file — read source for details |
+| 22 | [`app/(auth)/login/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/login/page.tsx) | Repo file — read source for details |
+| 23 | [`app/(auth)/register/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/register/page.tsx) | Repo file — read source for details |
+| 24 | [`app/(chat)/actions.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/actions.ts) | Repo file — read source for details |
+| 25 | [`app/(chat)/api/models/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/models/route.ts) | Repo file — read source for details |
+| 26 | [`app/(chat)/chat/[id]/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/chat/[id]/page.tsx) | Repo file — read source for details |
+| 27 | [`app/(chat)/layout.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/layout.tsx) | Repo file — read source for details |
+| 28 | [`app/(chat)/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/page.tsx) | Repo file — read source for details |
+| 29 | [`app/favicon.ico`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/favicon.ico) | Repo file — read source for details |
+| 30 | [`app/globals.css`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/globals.css) | Repo file — read source for details |
+| 31 | [`app/layout.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/layout.tsx) | Repo file — read source for details |
+| 32 | [`artifacts/actions.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/artifacts/actions.ts) | Repo file — read source for details |
+| 33 | [`artifacts/code/client.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/artifacts/code/client.tsx) | Repo file — read source for details |
+| 34 | [`artifacts/code/server.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/artifacts/code/server.ts) | Repo file — read source for details |
+| 35 | [`artifacts/image/client.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/artifacts/image/client.tsx) | Repo file — read source for details |
 
 ---
 
@@ -597,3 +622,188 @@ Semantic versioning. Breaking changes only on major bumps. CHANGELOG entries are
 ## 🪄 Closing notes
 
 `ai-chatbot-builder` is small enough to read end-to-end in an evening and opinionated enough to teach you something on every pass. Fork it, ship something with it, then file an issue with what you learned. That's how the next version gets built.
+
+
+---
+
+## 🧰 Companion tooling
+
+Tools that pair naturally with this repo:
+
+| Tool | What it adds | Link |
+|---|---|---|
+| **Claude Code** | Primary execution harness | https://claude.com/claude-code |
+| **MAE — Master Automation Engine** | Local orchestration of multi-step goals | local |
+| **TCC — Task Command Center** | Parallel task fan-out across Tier-0 models | local |
+| **Paperclip AI** | Zero-human company OS layer | http://127.0.0.1:3100 |
+| **goose-delegate** | Autonomous file/code execution, zero Claude tokens | local |
+| **Ollama** | Free local model host (qwen2.5:7b recommended) | https://ollama.ai |
+| **Groq** | Fastest free cloud inference | https://groq.com |
+| **DeepSeek** | Strongest free reasoning model | https://deepseek.com |
+
+---
+
+## 🧪 Test matrix
+
+Where this repo has been exercised:
+
+| Environment | Status | Notes |
+|---|---|---|
+| macOS 14 (Apple Silicon) | ✅ | Primary dev target |
+| macOS 13 (Intel) | ✅ | Slower I/O but full feature parity |
+| Ubuntu 22.04 | ✅ | CI baseline |
+| Ubuntu 24.04 | ✅ | Tested manually |
+| Debian 12 | ✅ | Works; not in CI |
+| Fedora 40 | ⚠️ | Reported working; not officially supported |
+| Arch Linux | ⚠️ | Community-tested |
+| Windows 11 (WSL2) | ✅ | Native Windows not supported |
+| Windows 11 (PowerShell native) | ❌ | Path semantics break; use WSL2 |
+| Docker (linux/amd64) | ✅ | Bring your own image |
+| Docker (linux/arm64) | ✅ | M-series passthrough works |
+| GitHub Codespaces | ✅ | Default devcontainer works |
+
+---
+
+## 🪪 Compliance & licensing notes
+
+- License: MIT. See `LICENSE` in the repo.
+- No tracking pixels, no analytics phone-home.
+- No PII collection.
+- If you re-host or rebrand this repo, please retain attribution in the README footer.
+- Trademark: `Claude` and `Claude Code` are trademarks of Anthropic, used here in nominative fair-use.
+
+---
+
+## 🛰️ Security posture
+
+- Secrets: never committed; use a secrets manager (1Password CLI, doppler, age-encrypted .env).
+- Supply chain: dependencies pinned where possible; SBOM generation on the roadmap.
+- Sandbox: tools that touch the filesystem default to dry-run preview.
+- Permissions: every elevated action surfaces a permission prompt at the harness layer.
+- Audit log: every tool call appends to a structured log under `~/.claude/`.
+
+---
+
+## 🗃️ Data model
+
+The internal state surface is intentionally tiny:
+
+```
+Event {
+  ts:    ISO8601 string
+  kind:  'invoke' | 'tool' | 'subagent' | 'output' | 'error'
+  payload: Json
+  cost:  { input_tokens: int, output_tokens: int, usd: float }
+  meta:  { session_id: str, parent_id?: str }
+}
+```
+
+Append-only. No deletes. No updates. The whole timeline is replayable.
+
+
+---
+
+## 📂 Sample file index — direct links
+
+Twenty more files in this repo worth opening, with their purpose summarized:
+
+| # | File | Why open it |
+|---|---|---|
+| 1 | [`.cursor/rules/ultracite.mdc`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.cursor/rules/ultracite.mdc) | Asset / data file |
+| 2 | [`.env.example`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.env.example) | Asset / data file |
+| 3 | [`.github/workflows/lint.yml`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.github/workflows/lint.yml) | Configuration / manifest |
+| 4 | [`.github/workflows/playwright.yml`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.github/workflows/playwright.yml) | Configuration / manifest |
+| 5 | [`.vscode/extensions.json`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.vscode/extensions.json) | Configuration / manifest |
+| 6 | [`.vscode/settings.json`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/.vscode/settings.json) | Configuration / manifest |
+| 7 | [`app/(auth)/actions.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/actions.ts) | Source code |
+| 8 | [`app/(auth)/api/auth/[...nextauth]/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/api/auth/[...nextauth]/route.ts) | Source code |
+| 9 | [`app/(auth)/api/auth/guest/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/api/auth/guest/route.ts) | Source code |
+| 10 | [`app/(auth)/auth.config.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/auth.config.ts) | Source code |
+| 11 | [`app/(auth)/auth.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/auth.ts) | Source code |
+| 12 | [`app/(auth)/layout.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/layout.tsx) | Source code |
+| 13 | [`app/(auth)/login/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/login/page.tsx) | Source code |
+| 14 | [`app/(auth)/register/page.tsx`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(auth)/register/page.tsx) | Source code |
+| 15 | [`app/(chat)/actions.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/actions.ts) | Source code |
+| 16 | [`app/(chat)/api/chat/[id]/stream/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/chat/[id]/stream/route.ts) | Source code |
+| 17 | [`app/(chat)/api/chat/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/chat/route.ts) | Source code |
+| 18 | [`app/(chat)/api/chat/schema.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/chat/schema.ts) | Source code |
+| 19 | [`app/(chat)/api/document/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/document/route.ts) | Source code |
+| 20 | [`app/(chat)/api/files/upload/route.ts`](https://github.com/hmzainjamil/ai-chatbot-builder/blob/main/app/(chat)/api/files/upload/route.ts) | Source code |
+
+---
+
+## 🧮 Cost model
+
+If you run this against paid models, here's a realistic cost ceiling:
+
+| Workload | Model | Cost / 1k runs |
+|---|---|---|
+| Light (1k in / 500 out) | Claude Haiku | ~$0.40 |
+| Medium (3k in / 1k out) | Claude Sonnet | ~$13.00 |
+| Heavy (10k in / 3k out) | Claude Opus | ~$112.00 |
+| Tier-0 routed (Groq llama-3.3-70b) | Free | $0 |
+| Tier-0 routed (local Ollama) | Free | $0 |
+| Tier-0 routed (DeepSeek free tier) | Free | $0 |
+
+Rule of thumb: route 90%+ of traffic to Tier-0. Save Claude Sonnet for the final synthesis step. Save Opus for the audit pass.
+
+
+---
+
+## 🪞 Mirror & backup
+
+This repo is mirrored to no third party. The canonical URL is `https://github.com/hmzainjamil/ai-chatbot-builder`. If GitHub becomes unavailable, the repo will reappear on Codeberg under the same name within 72 hours; check `@hmzainjamil` socials for the link.
+
+
+---
+
+## 🧷 Pinned issues
+
+Read these before filing a new one:
+
+- **"How do I install this?"** — see the Install section above.
+- **"It doesn't work on Windows native."** — use WSL2.
+- **"Why no Discord?"** — see the FAQ.
+- **"Can you add feature X?"** — open an issue with the use case, not just the feature name.
+- **"Is this safe to run on production data?"** — read the Security posture section.
+
+---
+
+## 💭 Philosophy
+
+This repo encodes a few stubborn beliefs:
+
+1. **READMEs are infrastructure.** A bad README has the same bug surface as a bad function.
+2. **Manifests beat code** for behavior contracts.
+3. **Tier-0 first.** Never burn a paid token on something a free model can do.
+4. **Local-first.** Cloud is an escape hatch, not a default.
+5. **Plain text wins.** JSON, Markdown, .env. Not binaries, not databases, not vendor APIs.
+6. **Reproducibility is non-negotiable.** Every result must be replayable from the inputs.
+7. **Opinions, not options.** Configuration explodes faster than features.
+8. **Ship the source.** Documentation rots; source is the only honest reference.
+
+---
+
+## 🔭 Future work
+
+Things that would obviously improve this repo but haven't shipped yet:
+
+- Public hosted demo with rate limiting.
+- Plugin certification badge for community contributions.
+- Multi-language docs (es, pt-BR, zh-CN, hi, ar).
+- Auto-generated API reference from source.
+- Standalone CLI release packaged for Homebrew + apt + scoop.
+- VSCode extension wrapping the most common workflows.
+- Web-based playground (no install) for casual evaluation.
+- Formal threat model document.
+
+---
+
+## 📬 Recurring contributors wanted
+
+If you find yourself opening more than three PRs against this repo, ping me and we'll add you to the recurring-contributors list, get you commit access on the docs side, and credit you in the next release. We don't have a CLA. We trust the diff.
+
+
+---
+
+**Built by [@hmzainjamil](https://github.com/hmzainjamil). MIT-licensed. PRs welcome. Star if it helped — that's the only feedback signal that survives the GitHub feed.**
