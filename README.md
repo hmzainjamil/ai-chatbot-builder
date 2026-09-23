@@ -1,5 +1,9 @@
 # ai-chatbot-builder
 
+<!-- HMZ PORTFOLIO STANDARD -->
+> Portfolio status: active · Visibility: public · Source of truth: current repository source.
+<!-- END HMZ PORTFOLIO STANDARD -->
+
 > **Production AI chatbot starter — Next.js 15, NextAuth, tool-use, memory** — fork-ready Next.js chatbot with auth, chat history, tool use, document handling, voting, suggestions, multi-turn memory, and Playwright tests
 
 <p align="center">
