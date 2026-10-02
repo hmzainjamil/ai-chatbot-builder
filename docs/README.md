@@ -6,7 +6,7 @@ The root README is the onboarding guide. The implementation and package files ar
 
 - [Chat routes and pages](../app/)
 - [AI models, providers, and tools](../lib/ai/)
-- [Authentication routes](../app/(auth)/)
+- [Authentication routes](../app/%28auth%29/)
 - [Database schema, migrations, and query helpers](../lib/db/)
 - [Playwright tests](../tests/e2e/)
 - [Example environment variable names](../.env.example)
