@@ -14,7 +14,7 @@ The root README is the onboarding guide. The implementation and package files ar
 
 ## Documentation gaps
 
-This repository has no dedicated architecture, threat model, privacy/data handling, deployment, release, or operations guide. The README only summarizes source-visible facts and makes no assurance claim. Write separate documents when owners can maintain accurate scope, evidence, and update triggers.
+[Security and data handling](../SECURITY.md) documents the source-visible chat, upload, tool, provider, and storage boundaries. Separate architecture, threat model, deployment, release, and operations guides remain absent; the README and security guide make no assurance claim.
 
 ## Validation boundary
 
