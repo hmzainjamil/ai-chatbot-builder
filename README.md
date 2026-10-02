@@ -60,6 +60,8 @@ These are available package scripts, not reported results. The test script invok
 - [Environment variable names](.env.example)
 - [License](LICENSE)
 
+- [Security and data handling](SECURITY.md)
+
 ## License
 
 The root [LICENSE](LICENSE) is Apache License 2.0. See its terms for use and distribution.
