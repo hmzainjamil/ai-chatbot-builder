@@ -52,9 +52,9 @@ These are available package scripts, not reported results. The test script invok
 ## Documentation and source map
 
 - [Documentation index](docs/README.md)
-- [Chat API route](app/(chat)/api/chat/route.ts)
-- [File upload route](app/(chat)/api/files/upload/route.ts)
-- [Document route](app/(chat)/api/document/route.ts)
+- [Chat API route](app/%28chat%29/api/chat/route.ts)
+- [File upload route](app/%28chat%29/api/files/upload/route.ts)
+- [Document route](app/%28chat%29/api/document/route.ts)
 - [Model configuration](lib/ai/models.ts)
 - [Database schema](lib/db/schema.ts)
 - [Environment variable names](.env.example)
